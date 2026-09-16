@@ -1,11 +1,13 @@
 body{
-     height: 50px;
+     min-height: 100vh;
      display: flex;
      justify-content: center;
+     align-items: center;
      background-color: rgb(109, 104, 63);
-     background-image: url(pic.webp/red\ moon.jpg);
+     background-image: url("pic.webp/red moon.jpg");
      background-size: cover;
      background-repeat: no-repeat;
+     margin: 0;
 }
 
 .profile-card{
