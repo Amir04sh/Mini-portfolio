@@ -124,5 +124,11 @@ body{
     .media-buttons .link {
         margin: 0 10px;
     }
+    body {
+        background-size: 70%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
+}
 }
