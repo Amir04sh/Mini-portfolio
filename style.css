@@ -100,3 +100,29 @@ body{
 .media-buttons:hover{
      opacity: 0.6;
 }
+
+
+@media (max-width: 600px) {
+
+    .profile-card {
+        width: 90%;
+        max-width: 350px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .image {
+        width: 120px;
+        height: 120px;
+        margin-right: 0;
+    }
+
+    .text .name {
+        font-size: 35px;
+    }
+
+    .media-buttons .link {
+        margin: 0 10px;
+    }
+
+}
