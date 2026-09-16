@@ -1,0 +1,101 @@
+body{
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     background-color: rgb(109, 104, 63);
+     background-image: url(pic.webp/red\ moon.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.profile-card{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     max-width: 400px;
+     width: 500px;
+     height: 300px;
+     background-color: rgb(30, 180, 53);
+     border-radius: 20px;
+     padding: 30px;
+     margin: 300px;
+     margin-right: 700px;
+     position: relative;
+}
+
+.image{
+     width: 150px;
+     height: 150px;
+     position: relative;
+     z-index: 1;
+     margin-right: 400px;
+}
+
+.image .profile-img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 50%;
+     background-color: gold;
+     padding: 5px;
+     border: 2px solid #fff;
+}
+
+.profile-card .text{
+     display: flex;
+     align-items: center;
+     color: rgb(107, 64, 122);
+}
+
+.text{
+     padding: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+     top: 10px;
+}
+
+.text .name{
+     font-size: 50px;
+}
+
+.profile-card .media-buttons{
+     display: flex;
+     align-items: center;
+     margin-top: 10px;
+}
+
+.media-buttons .link{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     font-size: 15px;
+     height: 35px;
+     width: 35px;
+     border-radius: 50%;
+     margin: 0 30px;
+     background-color: rgb(91, 111, 220);
+     text-decoration: none;
+}
+
+.profile-card::before{
+     content: "";
+     position: absolute;
+     height: 36%;
+     width: 100%;
+     background-image: url(pic.webp/images.png);
+     top: 0;
+     left: 0;
+}
+
+.profile-card::before{
+     border-radius: 5px;
+}
+
+.media-buttons{
+     transition: 0.5s;
+}
+
+.media-buttons:hover{
+     opacity: 0.6;
+}
