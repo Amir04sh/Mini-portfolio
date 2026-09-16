@@ -101,7 +101,7 @@ body{
      opacity: 0.6;
 }
 
-
+   /* Mobile settings */
 @media (max-width: 600px) {
 
     .profile-card {
